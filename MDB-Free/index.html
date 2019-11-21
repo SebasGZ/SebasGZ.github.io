@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Request a new insitutions or branch</title>
+  <!-- MDB icon -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+  <!-- Default form login -->
+
+  <br>
+  <div class="container">
+
+
+
+  <form class="text-center border border-light p-5" action="#!">
+
+
+    <p class="text-center  h4 mb-4">Request a new insitutions or branch</p>
+    <p class="text-center  h8 mb-4">Please enter institution as "Partner, the legal entity.
+      The name of the institution should be in its official language."</p>
+    <a href="https://ciat.cgiar.org/" target="_blank"><img style="display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    width: 50%" src="img/images.png"></a>
+    <br>
+
+    <label class="text-center  h8 mb-4">Is this institution a branch?</label>
+
+
+    <div class="custom-control custom-checkbox custom-control-inline">
+    <input type="checkbox" class="custom-control-input" id="defaultInline1">
+    <label class="custom-control-label" for="defaultInline1">Yes</label>
+  </div>
+
+  <!-- Default inline 2-->
+  <div class="custom-control custom-checkbox custom-control-inline">
+    <input type="checkbox" class="custom-control-input" id="defaultInline2">
+    <label class="custom-control-label" for="defaultInline2">No</label>
+  </div>
+
+  <br>
+
+  <!-- Subject -->
+    <label>Select institution headquarter:</label>
+    <select class="browser-default custom-select" class="form-control mb-4" required="required">
+        <option value="" disabled selected>Choose option</option>
+        <option value="1">Centro internacional de agricultura tropical</option>
+        <option value="2">Centro internacional de la papa</option>
+        <option value="3">International food policy research institute</option>
+
+    </select>
+  <br>
+  <br>
+
+    <div class="row">
+      <div class="col-md-6"><input onkeyup="checkLength()" class="form-control mb-4" type="text" class="form-control" id="validationDefault01" placeholder="Acronym"></div>
+      <div class="col-md-6"><input class="form-control mb-4" type="text" class="form-control" id="validationDefault01" placeholder="Name:" required="required"></div></div>
+
+
+        <select class="browser-default custom-select" class="form-control mb-4" required="required">
+            <option value="" disabled selected>Please use one of the following types:</option>
+            <option value="1">Academic Institutions</option>
+            <option value="2">Donor</option>
+            <option value="3">Non-Governmental Organitazion</option>
+            <option value="4">Research Insitutions</option>
+        </select>
+
+      <br><br>
+
+      <select class="browser-default custom-select" class="form-control mb-4" required="required">
+          <option value="" disabled selected>Country:</option>
+          <option value="1">Afghanistan(AF)</option>
+<option value="2">Åland Islands(AX)</option>
+<option value="3">Albania(AL)</option>
+<option value="4">Algeria(DZ)</option>
+<option value="5">American Samoa(AS)</option>
+<option value="6">Andorra(AD)</option>
+<option value="7">Angola(AO)</option>
+<option value="8">Anguilla(AI)</option>
+<option value="9">Antarctica(AQ)</option>
+<option value="10">Antigua and Barbuda(AG)</option>
+<option value="11">Argentina(AR)</option>
+<option value="12">Armenia(AM)</option>
+<option value="13">Aruba(AW)</option>
+<option value="14">Australia(AU)</option>
+<option value="15">Austria(AT)</option>
+<option value="16">Azerbaijan(AZ)</option>
+<option value="17">Bahrain(BH)</option>
+<option value="18">Bahamas(BS)</option>
+<option value="19">Bangladesh(BD)</option>
+<option value="20">Barbados(BB)</option>
+<option value="21">Belarus(BY)</option>
+<option value="22">Belgium(BE)</option>
+<option value="23">Belize(BZ)</option>
+<option value="24">Benin(BJ)</option>
+<option value="25">Bermuda(BM)</option>
+<option value="26">Bhutan(BT)</option>
+<option value="27">Bolivia, Plurinational State of(BO)</option>
+<option value="28">Bonaire, Sint Eustatius and Saba(BQ)</option>
+<option value="29">Bosnia and Herzegovina(BA)</option>
+<option value="30">Botswana(BW)</option>
+<option value="31">Bouvet Island(BV)</option>
+<option value="32">Brazil(BR)</option>
+<option value="33">British Indian Ocean Territory(IO)</option>
+<option value="34">Brunei Darussalam(BN)</option>
+<option value="35">Bulgaria(BG)</option>
+<option value="36">Burkina Faso(BF)</option>
+<option value="37">Burundi(BI)</option>
+<option value="38">Cambodia(KH)</option>
+<option value="39">Cameroon(CM)</option>
+<option value="40">Canada(CA)</option>
+<option value="41">Cape Verde(CV)</option>
+<option value="42">Cayman Islands(KY)</option>
+<option value="43">Central African Republic(CF)</option>
+<option value="44">Chad(TD)</option>
+<option value="45">Chile(CL)</option>
+<option value="46">China(CN)</option>
+<option value="47">Christmas Island(CX)</option>
+<option value="48">Cocos (Keeling) Islands(CC)</option>
+<option value="49">Colombia(CO)</option>
+<option value="50">Comoros(KM)</option>
+<option value="51">Congo(CG)</option>
+<option value="52">Congo, the Democratic Republic of the(CD)</option>
+<option value="53">Cook Islands(CK)</option>
+<option value="54">Costa Rica(CR)</option>
+<option value="55">Côte d'Ivoire(CI)</option>
+<option value="56">Croatia(HR)</option>
+<option value="57">Cuba(CU)</option>
+<option value="58">Curaçao(CW)</option>
+<option value="59">Cyprus(CY)</option>
+<option value="60">Czech Republic(CZ)</option>
+<option value="61">Denmark(DK)</option>
+<option value="62">Djibouti(DJ)</option>
+<option value="63">Dominica(DM)</option>
+<option value="64">Dominican Republic(DO)</option>
+<option value="65">Ecuador(EC)</option>
+<option value="66">Egypt(EG)</option>
+<option value="67">El Salvador(SV)</option>
+<option value="68">Equatorial Guinea(GQ)</option>
+<option value="69">Eritrea(ER)</option>
+<option value="70">Estonia(EE)</option>
+<option value="71">Ethiopia(ET)</option>
+<option value="72">Falkland Islands (Malvinas)(FK)</option>
+<option value="73">Faroe Islands(FO)</option>
+<option value="74">Fiji(FJ)</option>
+<option value="75">Finland(FI)</option>
+<option value="76">France(FR)</option>
+<option value="77">French Guiana(GF)</option>
+<option value="78">French Polynesia(PF)</option>
+<option value="79">French Southern Territories(TF)</option>
+<option value="80">Gabon(GA)</option>
+<option value="81">Gambia(GM)</option>
+<option value="82">Georgia(GE)</option>
+<option value="83">Germany(DE)</option>
+<option value="84">Ghana(GH)</option>
+<option value="85">Gibraltar(GI)</option>
+<option value="86">Greece(GR)</option>
+<option value="87">Greenland(GL)</option>
+<option value="88">Grenada(GD)</option>
+<option value="89">Guadeloupe(GP)</option>
+<option value="90">Guam(GU)</option>
+<option value="91">Guatemala(GT)</option>
+<option value="92">Guernsey(GG)</option>
+<option value="93">Guinea(GN)</option>
+<option value="94">Guinea-Bissau(GW)</option>
+<option value="95">Guyana(GY)</option>
+<option value="96">Haiti(HT)</option>
+<option value="97">Heard Island and McDonald Islands(HM)</option>
+<option value="98">Holy See (Vatican City State)(VA)</option>
+<option value="99">Honduras(HN)</option>
+<option value="100">Hong Kong(HK)</option>
+<option value="101">Hungary(HU)</option>
+<option value="102">Iceland(IS)</option>
+<option value="103">India(IN)</option>
+<option value="104">Indonesia(ID)</option>
+<option value="105">Iran, Islamic Republic of(IR)</option>
+<option value="106">Iraq(IQ)</option>
+<option value="107">Ireland(IE)</option>
+<option value="108">Isle of Man(IM)</option>
+<option value="109">Israel(IL)</option>
+<option value="110">Italy(IT)</option>
+<option value="111">Jamaica(JM)</option>
+<option value="112">Japan(JP)</option>
+<option value="113">Jersey(JE)</option>
+<option value="114">Jordan(JO)</option>
+<option value="115">Kazakhstan(KZ)</option>
+<option value="116">Kenya(KE)</option>
+<option value="117">Kiribati(KI)</option>
+<option value="118">Korea, Democratic People's Republic of(KP)</option>
+<option value="119">Korea, Republic of(KR)</option>
+<option value="120">Kuwait(KW)</option>
+<option value="121">Kyrgyzstan(KG)</option>
+<option value="122">Lao People's Democratic Republic(LA)</option>
+<option value="123">Latvia(LV)</option>
+<option value="124">Lebanon(LB)</option>
+<option value="125">Lesotho(LS)</option>
+<option value="126">Liberia(LR)</option>
+<option value="127">Libya(LY)</option>
+<option value="128">Liechtenstein(LI)</option>
+<option value="129">Lithuania(LT)</option>
+<option value="130">Luxembourg(LU)</option>
+<option value="131">Macao(MO)</option>
+<option value="132">Macedonia, the Former Yugoslav Republic of(MK)</option>
+<option value="133">Madagascar(MG)</option>
+<option value="134">Malawi(MW)</option>
+<option value="135">Malaysia(MY)</option>
+<option value="136">Maldives(MV)</option>
+<option value="137">Mali(ML)</option>
+<option value="138">Malta(MT)</option>
+<option value="139">Marshall Islands(MH)</option>
+<option value="140">Martinique(MQ)</option>
+<option value="141">Mauritania(MR)</option>
+<option value="142">Mauritius(MU)</option>
+<option value="143">Mayotte(YT)</option>
+<option value="144">Mexico(MX)</option>
+<option value="145">Micronesia, Federated States of(FM)</option>
+<option value="146">Moldova, Republic of(MD)</option>
+<option value="147">Monaco(MC)</option>
+<option value="148">Mongolia(MN)</option>
+<option value="149">Montenegro(ME)</option>
+<option value="150">Montserrat(MS)</option>
+<option value="151">Morocco(MA)</option>
+<option value="152">Mozambique(MZ)</option>
+<option value="153">Myanmar(MM)</option>
+<option value="154">Namibia(NA)</option>
+<option value="155">Nauru(NR)</option>
+<option value="156">Nepal(NP)</option>
+<option value="157">Netherlands(NL)</option>
+<option value="158">New Caledonia(NC)</option>
+<option value="159">New Zealand(NZ)</option>
+<option value="160">Nicaragua(NI)</option>
+<option value="161">Niger(NE)</option>
+<option value="162">Nigeria(NG)</option>
+<option value="163">Niue(NU)</option>
+<option value="164">Norfolk Island(NF)</option>
+<option value="165">Northern Mariana Islands(MP)</option>
+<option value="166">Norway(NO)</option>
+<option value="167">Oman(OM)</option>
+<option value="168">Pakistan(PK)</option>
+<option value="169">Palau(PW)</option>
+<option value="170">Palestine, State of(PS)</option>
+<option value="171">Panama(PA)</option>
+<option value="172">Papua New Guinea(PG)</option>
+<option value="173">Paraguay(PY)</option>
+<option value="174">Peru(PE)</option>
+<option value="175">Philippines(PH)</option>
+<option value="176">Pitcairn(PN)</option>
+<option value="177">Poland(PL)</option>
+<option value="178">Portugal(PT)</option>
+<option value="179">Puerto Rico(PR)</option>
+<option value="180">Qatar(QA)</option>
+<option value="181">Réunion(RE)</option>
+<option value="182">Romania(RO)</option>
+<option value="183">Russian Federation(RU)</option>
+<option value="184">Rwanda(RW)</option>
+<option value="185">Saint Barthélemy(BL)</option>
+<option value="186">Saint Helena, Ascension and Tristan da Cunha(SH)</option>
+<option value="187">Saint Kitts and Nevis(KN)</option>
+<option value="188">Saint Lucia(LC)</option>
+<option value="189">Saint Martin (French part)(MF)</option>
+<option value="190">Saint Pierre and Miquelon(PM)</option>
+<option value="191">Saint Vincent and the Grenadines(VC)</option>
+<option value="192">Samoa(WS)</option>
+<option value="193">San Marino(SM)</option>
+<option value="194">Sao Tome and Principe(ST)</option>
+<option value="195">Saudi Arabia(SA)</option>
+<option value="196">Senegal(SN)</option>
+<option value="197">Serbia(RS)</option>
+<option value="198">Seychelles(SC)</option>
+<option value="199">Sierra Leone(SL)</option>
+<option value="200">Singapore(SG)</option>
+<option value="201">Sint Maarten (Dutch part)(SX)</option>
+<option value="202">Slovakia(SK)</option>
+<option value="203">Slovenia(SI)</option>
+<option value="204">Solomon Islands(SB)</option>
+<option value="205">Somalia(SO)</option>
+<option value="206">South Africa(ZA)</option>
+<option value="207">South Georgia and the South Sandwich Islands(GS)</option>
+<option value="208">South Sudan(SS)</option>
+<option value="209">Spain(ES)</option>
+<option value="210">Sri Lanka(LK)</option>
+<option value="211">Sudan(SD)</option>
+<option value="212">Suriname(SR)</option>
+<option value="213">Svalbard and Jan Mayen(SJ)</option>
+<option value="214">Swaziland(SZ)</option>
+<option value="215">Sweden(SE)</option>
+<option value="216">Switzerland(CH)</option>
+<option value="217">Syrian Arab Republic(SY)</option>
+<option value="218">Taiwan, Province of China(TW)</option>
+<option value="219">Tajikistan(TJ)</option>
+<option value="220">Tanzania, United Republic of(TZ)</option>
+<option value="221">Thailand(TH)</option>
+<option value="222">Timor-Leste(TL)</option>
+<option value="223">Togo(TG)</option>
+<option value="224">Tokelau(TK)</option>
+<option value="225">Tonga(TO)</option>
+<option value="226">Trinidad and Tobago(TT)</option>
+<option value="227">Tunisia(TN)</option>
+<option value="228">Turkey(TR)</option>
+<option value="229">Turkmenistan(TM)</option>
+<option value="230">Turks and Caicos Islands(TC)</option>
+<option value="231">Tuvalu(TV)</option>
+<option value="232">Uganda(UG)</option>
+<option value="233">Ukraine(UA)</option>
+<option value="234">United Arab Emirates(AE)</option>
+<option value="235">United Kingdom(GB)</option>
+<option value="236">United States(US)</option>
+<option value="237">United States Minor Outlying Islands(UM)</option>
+<option value="238">Uruguay(UY)</option>
+<option value="239">Uzbekistan(UZ)</option>
+<option value="240">Vanuatu(VU)</option>
+<option value="241">Venezuela, Bolivarian Republic of(VE)</option>
+<option value="242">Viet Nam(VN)</option>
+<option value="243">Virgin Islands, British(VG)</option>
+<option value="244">Virgin Islands, U.S.(VI)</option>
+<option value="245">Wallis and Futuna(WF)</option>
+<option value="246">Western Sahara(EH)</option>
+<option value="247">Yemen(YE)</option>
+<option value="248">Zambia(ZM)</option>
+<option value="249">Zimbabwe(ZW)</option>
+
+      </select>
+
+    <br><br>
+  <input class="form-control mb-12" type="text" class="form-control" id="validationDefaut01" placeholder="City" required="required">
+<br>
+      <!-- Sign in button -->
+      <button class="btn btn-info btn-block md-4" type="submit">Sign in</button>
+
+
+  </form>
+  </div>
+    <!-- Default form login -->
+
+<script>
+
+function checkLength(){
+    var textbox = document.getElementById("textbox");
+    if(textbox.value.length >= 10 && textbox.value.length <= 100){
+        alert("success");
+    }
+    else{
+        alert("make sure the input is minimum 10 characters long")
+    }
+}
+
+</script>
+
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>
